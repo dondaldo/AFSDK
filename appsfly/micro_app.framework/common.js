@@ -390,6 +390,20 @@ Base.Page.prototype.commitChanges = function(sourceId){
     }
 }
 
+Base.Page.prototype.setState = function(state, sourceId){
+    if(isFunction(state)){
+        this.state = (state.bind(this))(this.state);
+    }
+    else{
+        for(var k in state) {
+            if (this.state.hasOwnProperty(k)) {
+                this.state[k] = state[k];
+            }
+        }
+    }
+    this.commitChanges(sourceId);
+}
+
 // commitStateChanges is to be deprecated soon
 Base.Page.prototype.commitStateChanges = function(sourceId){
     var newVirtualView = generateProps(this.viewData, this);

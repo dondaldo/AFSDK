@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Appsfly Ios Sdk'
 
 # This description is used to generate tags and improve search results.
