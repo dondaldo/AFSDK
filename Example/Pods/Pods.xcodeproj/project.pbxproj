@@ -13,8 +13,6 @@
 		BA459F2630880581428046EC56484CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E6807CC9AE2418E22CC9D5F86B5709F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F2BAD39E5197437DD1D2C6DD059F266C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 226C8372F46FFF8F06920AB67F51EFCF /* ReplaceMe.m */; };
-		F3F66AE8206CBD6B00856D9E /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66AE6206CBD6A00856D9E /* core.framework */; };
-		F3F66AE9206CBD6B00856D9E /* micro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66AE7206CBD6A00856D9E /* micro_app.framework */; };
 		F3F66B54206CE43C00856D9E /* AFMicroAppProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B4C206CE43B00856D9E /* AFMicroAppProvider.h */; };
 		F3F66B55206CE43C00856D9E /* AFImageRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B4D206CE43B00856D9E /* AFImageRepository.h */; };
 		F3F66B56206CE43C00856D9E /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B4E206CE43B00856D9E /* core.h */; };
@@ -23,6 +21,8 @@
 		F3F66B59206CE43C00856D9E /* AFMicroAppInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B51206CE43C00856D9E /* AFMicroAppInstance.h */; };
 		F3F66B5A206CE43C00856D9E /* MicroAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B52206CE43C00856D9E /* MicroAppDelegate.h */; };
 		F3F66B5B206CE43C00856D9E /* AFLocalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66B53206CE43C00856D9E /* AFLocalStore.h */; };
+		F3F66B62206CF8F600856D9E /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66B60206CF8F600856D9E /* core.framework */; };
+		F3F66B63206CF8F600856D9E /* micro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66B61206CF8F600856D9E /* micro_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,6 @@
 		E6CC51A72311089FEBF4B31D586813E5 /* AFSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AFSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0811E375A47353D94E883E2744BC1CC /* AFSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F215AAD508941454F61DFC3E45653C03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3F66AE6206CBD6A00856D9E /* core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = core.framework; sourceTree = "<group>"; };
-		F3F66AE7206CBD6A00856D9E /* micro_app.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = micro_app.framework; sourceTree = "<group>"; };
 		F3F66B4C206CE43B00856D9E /* AFMicroAppProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFMicroAppProvider.h; path = ../AFSDK/Classes/AFMicroAppProvider.h; sourceTree = "<group>"; };
 		F3F66B4D206CE43B00856D9E /* AFImageRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRepository.h; path = ../AFSDK/Classes/AFImageRepository.h; sourceTree = "<group>"; };
 		F3F66B4E206CE43B00856D9E /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core.h; path = ../AFSDK/Classes/core.h; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		F3F66B51206CE43C00856D9E /* AFMicroAppInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFMicroAppInstance.h; path = ../AFSDK/Classes/AFMicroAppInstance.h; sourceTree = "<group>"; };
 		F3F66B52206CE43C00856D9E /* MicroAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicroAppDelegate.h; path = ../AFSDK/Classes/MicroAppDelegate.h; sourceTree = "<group>"; };
 		F3F66B53206CE43C00856D9E /* AFLocalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFLocalStore.h; path = ../AFSDK/Classes/AFLocalStore.h; sourceTree = "<group>"; };
+		F3F66B60206CF8F600856D9E /* core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = core.framework; sourceTree = "<group>"; };
+		F3F66B61206CF8F600856D9E /* micro_app.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = micro_app.framework; sourceTree = "<group>"; };
 		FFFF8A7E880A9EC651FF6AB05F0E8F09 /* Pods-AFSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFSDK_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +86,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6807CC9AE2418E22CC9D5F86B5709F7 /* Foundation.framework in Frameworks */,
-				F3F66AE8206CBD6B00856D9E /* core.framework in Frameworks */,
-				F3F66AE9206CBD6B00856D9E /* micro_app.framework in Frameworks */,
+				F3F66B62206CF8F600856D9E /* core.framework in Frameworks */,
+				F3F66B63206CF8F600856D9E /* micro_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +203,8 @@
 		F3F66AE5206CBD2200856D9E /* appsfly */ = {
 			isa = PBXGroup;
 			children = (
+				F3F66B60206CF8F600856D9E /* core.framework */,
+				F3F66B61206CF8F600856D9E /* micro_app.framework */,
 				F3F66B50206CE43C00856D9E /* AFAppsflyProvider.h */,
 				F3F66B4D206CE43B00856D9E /* AFImageRepository.h */,
 				F3F66B53206CE43C00856D9E /* AFLocalStore.h */,
@@ -211,8 +213,6 @@
 				F3F66B4E206CE43B00856D9E /* core.h */,
 				F3F66B4F206CE43C00856D9E /* micro_app.h */,
 				F3F66B52206CE43C00856D9E /* MicroAppDelegate.h */,
-				F3F66AE6206CBD6A00856D9E /* core.framework */,
-				F3F66AE7206CBD6A00856D9E /* micro_app.framework */,
 			);
 			path = appsfly;
 			sourceTree = "<group>";
