@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <core/MicroAppDelegate.h>
+#import "MicroAppDelegate.h"
 
 @interface AFMicroAppProvider : NSObject
 +(AFMicroAppProvider * _Nonnull)defaultProvider;
