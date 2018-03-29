@@ -1,0 +1,6 @@
+framework module micro_app {
+  umbrella header "micro_app.h"
+
+  export *
+  module * { export * }
+}

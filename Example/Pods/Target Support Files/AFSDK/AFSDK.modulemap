@@ -1,0 +1,6 @@
+framework module AFSDK {
+  umbrella header "AFSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
