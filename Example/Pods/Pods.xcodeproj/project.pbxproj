@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2A4603F116DE7DE9FC991D818B0A8DAB /* Pods-AFSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CDBFFC19D0466BE2DC1653FF5D575 /* Pods-AFSDK_Tests-dummy.m */; };
-		4BFFCFE370332D8D3994E021811DB2C5 /* AFSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D368DA1B37B232008FDC4564A3D33BCE /* AFSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5159FD2E7B4547734D713402AD42FC02 /* Pods-AFSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5B77EC6FBFDEE0FE1D49E5393242F9 /* Pods-AFSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B669DFE2C53D1E05154EE1CF80B7711C /* AFSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55C0BB3F45441263494F12111C24831 /* AFSDK-dummy.m */; };
 		BA459F2630880581428046EC56484CCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -16,15 +15,6 @@
 		F2BAD39E5197437DD1D2C6DD059F266C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 226C8372F46FFF8F06920AB67F51EFCF /* ReplaceMe.m */; };
 		F3F66AE8206CBD6B00856D9E /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66AE6206CBD6A00856D9E /* core.framework */; };
 		F3F66AE9206CBD6B00856D9E /* micro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F66AE7206CBD6A00856D9E /* micro_app.framework */; };
-		F3F66AEB206CBE0000856D9E /* AFAppsflyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AEA206CBE0000856D9E /* AFAppsflyProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF3206CBE0E00856D9E /* MicroAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AEC206CBE0D00856D9E /* MicroAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF4206CBE0E00856D9E /* AFMicroAppProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AED206CBE0D00856D9E /* AFMicroAppProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF5206CBE0E00856D9E /* AFImageRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AEE206CBE0E00856D9E /* AFImageRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF6206CBE0E00856D9E /* AFMicroAppInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AEF206CBE0E00856D9E /* AFMicroAppInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF7206CBE0E00856D9E /* AFLocalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AF0206CBE0E00856D9E /* AFLocalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF8206CBE0E00856D9E /* micro_app.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AF1206CBE0E00856D9E /* micro_app.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AF9206CBE0E00856D9E /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AF2206CBE0E00856D9E /* core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F66AFB206CBE2100856D9E /* AFAppsflyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F66AFA206CBE2000856D9E /* AFAppsflyProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,15 +53,6 @@
 		F215AAD508941454F61DFC3E45653C03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3F66AE6206CBD6A00856D9E /* core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = core.framework; sourceTree = "<group>"; };
 		F3F66AE7206CBD6A00856D9E /* micro_app.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = micro_app.framework; sourceTree = "<group>"; };
-		F3F66AEA206CBE0000856D9E /* AFAppsflyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppsflyProvider.h; sourceTree = "<group>"; };
-		F3F66AEC206CBE0D00856D9E /* MicroAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicroAppDelegate.h; sourceTree = "<group>"; };
-		F3F66AED206CBE0D00856D9E /* AFMicroAppProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppProvider.h; sourceTree = "<group>"; };
-		F3F66AEE206CBE0E00856D9E /* AFImageRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFImageRepository.h; sourceTree = "<group>"; };
-		F3F66AEF206CBE0E00856D9E /* AFMicroAppInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppInstance.h; sourceTree = "<group>"; };
-		F3F66AF0206CBE0E00856D9E /* AFLocalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFLocalStore.h; sourceTree = "<group>"; };
-		F3F66AF1206CBE0E00856D9E /* micro_app.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = micro_app.h; sourceTree = "<group>"; };
-		F3F66AF2206CBE0E00856D9E /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
-		F3F66AFA206CBE2000856D9E /* AFAppsflyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFAppsflyProvider.h; path = ../../appsfly/core.framework/Headers/AFAppsflyProvider.h; sourceTree = "<group>"; };
 		FFFF8A7E880A9EC651FF6AB05F0E8F09 /* Pods-AFSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFSDK_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,15 +137,6 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				F3F66AFA206CBE2000856D9E /* AFAppsflyProvider.h */,
-				F3F66AEE206CBE0E00856D9E /* AFImageRepository.h */,
-				F3F66AF0206CBE0E00856D9E /* AFLocalStore.h */,
-				F3F66AEF206CBE0E00856D9E /* AFMicroAppInstance.h */,
-				F3F66AF2206CBE0E00856D9E /* core.h */,
-				F3F66AEC206CBE0D00856D9E /* MicroAppDelegate.h */,
-				F3F66AED206CBE0D00856D9E /* AFMicroAppProvider.h */,
-				F3F66AF1206CBE0E00856D9E /* micro_app.h */,
-				F3F66AEA206CBE0000856D9E /* AFAppsflyProvider.h */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				1B12DF098FB571B8E1E595015D3CB59C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
@@ -228,16 +200,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFFCFE370332D8D3994E021811DB2C5 /* AFSDK-umbrella.h in Headers */,
-				F3F66AEB206CBE0000856D9E /* AFAppsflyProvider.h in Headers */,
-				F3F66AF3206CBE0E00856D9E /* MicroAppDelegate.h in Headers */,
-				F3F66AF4206CBE0E00856D9E /* AFMicroAppProvider.h in Headers */,
-				F3F66AF5206CBE0E00856D9E /* AFImageRepository.h in Headers */,
-				F3F66AFB206CBE2100856D9E /* AFAppsflyProvider.h in Headers */,
-				F3F66AF6206CBE0E00856D9E /* AFMicroAppInstance.h in Headers */,
-				F3F66AF7206CBE0E00856D9E /* AFLocalStore.h in Headers */,
-				F3F66AF8206CBE0E00856D9E /* micro_app.h in Headers */,
-				F3F66AF9206CBE0E00856D9E /* core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

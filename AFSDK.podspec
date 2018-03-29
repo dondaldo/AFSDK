@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Appsfly Ios Sdk'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,20 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/dondaldo/AFSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'srikanth.android@hotmail.com' => 'srikanth@appsfly.io' }
   s.source           = { :git => 'https://github.com/dondaldo/AFSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AFSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AFSDK' => ['AFSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'AFSDK/Classes/*.{c,h,hh,m,mm}'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.public_header_files = 'AFSDK/Classes/*.h'
+#   s.dependency 'Texture'
+#   s.dependency 'Socket.IO-Client-Swift', '~> 13.1.0'
+ s.pod_target_xcconfig = {'SWIFT_VERSION' =>'4.0'}
+   s.ios.vendored_frameworks = 'appsfly/core.framework'
+   s.ios.vendored_frameworks = 'appsfly/micro_app.framework'
+   
+   
 end

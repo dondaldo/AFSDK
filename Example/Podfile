@@ -1,6 +1,6 @@
 use_frameworks!
 target 'AFSDK_Tests' do
   pod 'AFSDK', :path => '../'
-  
+use_frameworks!
   
 end
